@@ -14,6 +14,7 @@
 :root {
     --dark-primary: #1b1f24;
     --primary: #12bdff;
+    --primary-hover: #068abe;
 }
 
 header {
@@ -25,27 +26,28 @@ header {
   align-items: center;
 }
 
-ul {
+header ul {
     display: flex;
     list-style-type: none;
     
     
 }
 
-ul li {
+header ul li {
     margin-right: 20px;
 }
 
-ul li a  {
+header ul li a  {
     color: white;
     text-decoration: none;
+    font-weight: 200;
 }
-ul li a:hover {
+header ul li a:hover {
     color: var(--primary);
 }
 /*Header > button*/
 
-header button {
+/* header button {
     padding: 10px  20px ;
     font-weight: 100;
     background-color: var(--dark-primary);
@@ -58,7 +60,7 @@ header button:hover {
     cursor: pointer;
     background-color: var(--primary);
     color: white;
-}
+} */
 
 /*Logo*/
 
@@ -68,3 +70,96 @@ header button:hover {
     letter-spacing: 2px;
     
 }
+
+
+/*Section Here Page*/
+
+section.hero-section {
+    background-color: var(--dark-primary);
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 20px 120px 0 240px;
+}
+
+.hero-section__title{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-section__desc{
+    color: azure;
+}
+
+.hero-section__title span{
+    color: var(--primary);
+}
+
+.social-icons{
+    margin: 20px 0;
+    padding: 5px;
+}
+
+.social-icons li {
+    margin-right: 15px;
+}
+
+ul.social-icons{
+    list-style: none;
+    display: flex;
+}
+
+.social-icons li > a {
+    text-decoration: none;
+    color: white;
+}
+
+.social-icons li > a:hover{
+    color: var(--primary);
+}
+
+.hero-button button{
+    margin-right: 10px;
+}
+
+/*buttons*/
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 1px;
+    border: none;
+    cursor: pointer;
+}
+.btn.btn-primary {
+    background-color: var(--primary);
+    font-weight: 900;
+    color: black;
+    border-radius: 2px;
+}
+
+.btn.btn-primary:hover{
+    background-color: var(--primary-hover);
+    color: white;
+}
+
+.btn-dark-outlined {
+    background-color: var(--dark-primary);
+    border: 1px solid var(--primary);
+    color: var(--primary);
+    border-radius: 5px;
+    font-weight: 900;
+    
+}
+.btn-dark-outlined:hover {
+    background-color: var(--primary-hover);
+    color: white;
+    cursor: pointer;
+}
+/* 
+
+
+header button:hover {
+    
+    background-color: var(--primary);
+    color: white;
+} */
