@@ -233,3 +233,85 @@ header button:hover {
     color: var(--primary);
     cursor: pointer;
 }
+
+/* Work section**/
+
+.work-section{
+    background-color: var(--dark-primary);
+    color: white;
+    padding: 60px;
+    text-align: center;
+    
+}
+
+.spanid {
+    color: var(--primary);
+    cursor: pointer;
+}
+.spanid:hover{
+    text-decoration: underline;
+}
+
+.work-section-title{
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+.work-section-items{
+    display: flex;
+    justify-content: center;       
+}
+
+.work-section-box{
+    background-color: #22282f;
+    padding: 30px;
+    max-width: 300px;
+    text-align: left;
+    border-radius: 5px;
+    margin-left: 40px;
+    
+}
+
+.work-section-box:hover{
+    background-color: #222425;
+    cursor: pointer;
+}
+
+.work-section-box p{
+    color: gray;
+    font-size: 14px;
+}
+
+.work-section-box a {
+    text-decoration: none;
+    color: var(--primary-hover);
+    
+   
+}
+
+.work-section__desc{
+    margin-top: 10px;
+    margin-top: 15px;
+}
+
+.work-section-box a:hover{
+    color: var(--primary);
+   
+}
+
+.work-section__desc p {
+    padding-top: 5px;
+}
+
+.work-section-icon{
+    background-color: var(--primary);
+    padding: 10px;
+    border-radius: 50px;
+    
+}
+
+.work-section-icon:hover{
+    border: 1px  solid white;
+}
+
