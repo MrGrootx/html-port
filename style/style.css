@@ -26,6 +26,14 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
+
+  position: fixed;
+  
+  top: 0;
+  left: 0;
+  right: 0;
+  
+
 }
 
 header ul {
@@ -70,6 +78,8 @@ header button:hover {
   letter-spacing: 2px;
 }
 
+
+
 /*Section Here Page*/
 
 section.hero-section {
@@ -77,7 +87,9 @@ section.hero-section {
   color: white;
   display: flex;
   align-items: center;
-  padding: 20px 120px 0 240px;
+  padding: 100px 120px 0 240px;
+
+  
 }
 
 .hero-section__title {
@@ -366,17 +378,25 @@ footer h4 a {
   section.hero-section {
     flex-direction: column;
     padding: 40px;
+    padding-top: 120px;
+  }
+
+  .hero-section img{
+    display: none;
   }
 
   /*About section*/
 
   .about-section {
     flex-direction: column;
+    padding: 30px;
   }
 
   .about-section--desc {
     margin-left: 0;
     margin-top: 30px;
+    width: 100%;
+    max-width: unset;
   }
 
   /* My Works */
