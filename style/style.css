@@ -315,3 +315,54 @@ header button:hover {
     border: 1px  solid white;
 }
 
+/** Contact Sec*/
+
+.contact-section{
+    background-color: #1b1f24;
+    padding: 40px;
+    color: white;
+    text-align: center;
+}
+
+.contact-section h4{
+    font-size: 30px;
+    margin: 15px 0;
+    font-weight: 900;
+   
+}
+
+.contact-section h4 span{
+    color: var(--primary);
+}
+
+.contact-section form input, textarea{
+    padding: 5px 10px;
+    outline: none;
+    width: 350px;
+    background-color: #6c6c6c;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    resize: none;
+    font-family: sans-serif;
+}
+
+
+footer{
+    font-size: 12px;
+    background-color: var(--dark-primary);
+    color: white;
+    padding: 20px 0;
+    padding-left: 10px;
+    text-align: left;
+    color: gray;
+}
+
+footer span{
+    color: var(--primary);
+   
+}
+
+footer h4 a{
+    text-decoration: none;
+}
